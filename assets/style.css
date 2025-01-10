@@ -9,6 +9,10 @@ body {
   font-family: "Fira Sans", serif;
   background: #f5f5f5;
 }
+.container {
+  width: 1088px;
+  margin: 50px auto;
+}
 /* ============ navbar area ============ */
 nav {
   display: flex;
@@ -43,11 +47,8 @@ header nav button:hover {
 /* ============ banner area ============ */
 .banner_area {
   margin: 20px auto 80px;
-  width: 1088px;
-  /* height: 580px; */
   border-radius: 20px;
   background: #c6e4d6;
-    
 }
 .banner_wrapper {
   display: flex;
@@ -70,7 +71,7 @@ header nav button:hover {
 }
 .banner_wrapper .banner_text button {
   cursor: pointer;
-  border:none;
+  border: none;
   color: #ffffff;
   border-radius: 7px;
   background: #006a50;
@@ -79,3 +80,35 @@ header nav button:hover {
   padding: 15px 30px;
 }
 
+/* ============ pillars section ============ */
+
+.pillars h2 {
+  margin: 32px 0px;
+  color: #0e0e0e;
+  font-size: 35px;
+  font-weight: 700;
+}
+.pillar_wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.pillar_wrapper .single_pillar {
+  border: 1px solid #0e0e0e26;
+  border-radius: 13px;
+  background: #ffffff;
+  padding: 20px;
+  width: 250px;
+  
+}
+.pillar_wrapper h4 {
+  color: #0e0e0ecc;
+  font-size: 17px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.pillar_wrapper p {
+  color: #0e0e0eb3;
+  font-size: 13px;
+  font-weight: 400;
+}
