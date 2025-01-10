@@ -11,7 +11,7 @@ body {
 }
 .container {
   width: 1088px;
-  margin: 50px auto;
+  margin: 60px auto;
 }
 /* ============ navbar area ============ */
 nav {
@@ -78,6 +78,11 @@ header nav button:hover {
   font-size: 15px;
   font-weight: 600;
   padding: 15px 30px;
+  transition: 0.5s;
+}
+.banner_wrapper .banner_text button:hover {
+  color: #006a50;
+  background: #ffffff;
 }
 
 /* ============ pillars section ============ */
@@ -89,9 +94,9 @@ header nav button:hover {
   font-weight: 700;
 }
 .pillar_wrapper {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 .pillar_wrapper .single_pillar {
   border: 1px solid #0e0e0e26;
@@ -99,7 +104,6 @@ header nav button:hover {
   background: #ffffff;
   padding: 20px;
   width: 250px;
-  
 }
 .pillar_wrapper h4 {
   color: #0e0e0ecc;
@@ -112,3 +116,67 @@ header nav button:hover {
   font-size: 13px;
   font-weight: 400;
 }
+
+/* ============ vision section ============ */
+.vision h2 {
+  color: #0e0e0e;
+  font-size: 35px;
+  font-weight: 700;
+}
+.vision p {
+  margin: 20px 0 27px;
+  color: #0e0e0eb3;
+  font-size: 14px;
+  font-weight: 400;
+}
+.vision .single_vision {
+  border-radius: 13px;
+  padding: 27px;
+}
+.vision .single_vision button {
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 11px 20px 11px 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.vision .visionone {
+  background: #5490f533;
+}
+.vision .visionone button {
+  background: #5490f5;
+  color: #ffffff;
+}
+.vision .visionone button:hover {
+  background: #ffffff;
+  color: #5490f5;
+}
+
+.vision .visiontwo {
+    background: #c6e4d6;
+  }
+  .vision .visiontwo button {
+    background: #09a15c;
+    color: #ffffff;
+
+  }
+  .vision .visiontwo button:hover {
+    background: #ffffff;
+    color: #09a15c;
+  }
+.vision .visionthree {
+    background: #f7ebcf
+  }
+  .vision .visionthree button {
+    background: #FFC239;
+    color: #ffffff;
+
+  }
+  .vision .visionthree button:hover {
+    background: #ffffff;
+    color: #FFC239;
+  }
+
+
+
