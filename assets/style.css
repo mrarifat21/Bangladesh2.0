@@ -134,12 +134,12 @@ header nav button:hover {
   padding: 27px;
 }
 .vision .single_vision button {
-    border: none;
-    cursor: pointer;
-    border-radius: 7px;
-    padding: 11px 20px 11px 20px;
-    font-size: 14px;
-    font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  padding: 11px 20px 11px 20px;
+  font-size: 14px;
+  font-weight: 600;
 }
 .vision .visionone {
   background: #5490f533;
@@ -154,29 +154,193 @@ header nav button:hover {
 }
 
 .vision .visiontwo {
-    background: #c6e4d6;
-  }
-  .vision .visiontwo button {
-    background: #09a15c;
-    color: #ffffff;
-
-  }
-  .vision .visiontwo button:hover {
-    background: #ffffff;
-    color: #09a15c;
-  }
+  background: #c6e4d6;
+}
+.vision .visiontwo button {
+  background: #09a15c;
+  color: #ffffff;
+}
+.vision .visiontwo button:hover {
+  background: #ffffff;
+  color: #09a15c;
+}
 .vision .visionthree {
-    background: #f7ebcf
-  }
-  .vision .visionthree button {
-    background: #FFC239;
-    color: #ffffff;
+  background: #f7ebcf;
+}
+.vision .visionthree button {
+  background: #ffc239;
+  color: #ffffff;
+}
+.vision .visionthree button:hover {
+  background: #ffffff;
+  color: #ffc239;
+}
+/* ============ quote section ============ */
+.quote {
+  background: #ffffff;
+  margin-top: 28px;
+  padding: 40px 20px;
+  border: 1px solid #0e0e0e26;
+  border-radius: 16px;
 
-  }
-  .vision .visionthree button:hover {
-    background: #ffffff;
-    color: #FFC239;
-  }
+  background: rgb(255, 255, 255);
+}
+.quote_wrapper .quote_dtl {
+  background-image: url("quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: left-top;
+  padding: 30px 0 0;
+}
+.quote_wrapper .quote_dtl {
+  color: #0e0e0ecc;
+  font-size: 13px;
+  font-weight: 400;
+}
+.author {
+  color: #0e0e0ecc;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 10px 0 3px;
+}
+.position {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* ============ opinion section ============ */
+.opinion_wrapper {
+  height: 409px;
+  margin: 24px 0px;
+  border-radius: 16px;
+  background: #ffffff;
+  padding: 32px;
+}
+.opinion h2 {
+  color: #0e0e0e;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.opinion_wrapper table {
+  margin: 0 auto;
+  padding: 32px;
+}
+.opinion_wrapper table,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+table th,
+td {
+  padding: 20px;
+}
+
+table th {
+  border: 1px solid #0e0e0e26;
+  background: #c6e4d6;
+  color: rgb(14, 14, 14);
+  font-size: 17px;
+  font-weight: 600;
+  text-align: left;
+}
+table tr .tselect {
+  border-left: none;
+}
+table tr .tqus {
+  border-right: none;
+}
+table td {
+  border: 1px solid #0e0e0e26;
+  background: #ffffff1a;
+  color: #0e0e0e;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.opinion_wrapper table select {
+  background: #c6e4d6;
+  color: #0e0e0e;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #0e0e0e;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+
+/* ============ news section ============ */
+.news_wrapper{
+
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.news h2 {
+  color: #0e0e0e;
+  font-size: 34px;
+  font-weight: 700;
+}
+.news p {
+  color: #0e0e0eb3;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 20px 0 27px;
+}
+
+.single_news {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border-radius: 20px;
+background: #ffffff;
+padding: 40px;
+}
+.newstwo{
+  flex-direction: row-reverse;
+}
+.single_news .image {
+  width: 350px;
+}
+.single_news .image img {
+  width: 100%;
+  border-radius: 24px;
+}
+.single_news .newstext {
+  width: 630px;
+}
+.single_news .newstext h3 {
+  color: #0e0e0ecc;
+  font-size: 27px;
+  font-weight: 700;
+}
+.single_news .newstext div span {
+  color: #0e0e0eb3;
+  font-size: 13px;
+  font-weight: 400;
+}
+.single_news .newstext p {
+  color: #0e0e0eb3;
+  font-size: 13px;
+  font-weight: 400;
+}
+.single_news .newstext button {
+  margin-top: 30px;
+  border-radius: 7px;
+  background: #006a50;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 11px 22px;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 6px;
 
 
+}
+.single_news .newstext button:hover {
+  background: #ffffff;
+  color: #006a50;
+ 
 
+}
