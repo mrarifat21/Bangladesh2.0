@@ -191,7 +191,7 @@ header nav button:hover {
   background-image: url("quote-bg.png");
   background-repeat: no-repeat;
   background-position: left-top;
-  padding: 30px 0 0;
+  padding: 30px 0 0 0;
 }
 .quote_wrapper .quote_dtl {
   color: #0e0e0ecc;
@@ -315,6 +315,9 @@ table td {
   font-size: 27px;
   font-weight: 700;
 }
+.single_news .newstext img {
+  margin: 10px 0;
+}
 .single_news .newstext div span {
   color: #0e0e0eb3;
   font-size: 13px;
@@ -326,7 +329,7 @@ table td {
   font-weight: 400;
 }
 .single_news .newstext button {
-  margin-top: 30px;
+  margin-top: 18px;
   border-radius: 7px;
   background: #006a50;
   color: #ffffff;
@@ -465,11 +468,11 @@ table td {
   border-radius: 0px 8px 8px 0px;
   background: #006a50;
   width: 130px;
-  padding: 15px 40px;
-  border: none;
+  padding: 15px 0px;
   outline: none;
   cursor: pointer;
   border: 1px solid;
+  text-align: center;
 }
 .newsletter_wrapper .subscribe button:hover {
   background: #ffffff;
